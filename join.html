@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Join | B.con x Tuff eSports</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <a href="index.html" class="brand">
+
+            <div class="brand-mark">
+                B <span>x</span> T
+            </div>
+
+            <div>
+                <strong>B.con x Tuff</strong>
+                <small>eSPORTS</small>
+            </div>
+
+        </a>
+
+        <a href="index.html" class="login-btn">
+            ← HOME
+        </a>
+
+    </header>
+
+
+    <!-- REGISTRATION -->
+    <main>
+
+        <section class="registration">
+
+            <div class="registration-header">
+
+                <small>PLAYER RECRUITMENT</small>
+
+                <h1>
+                    JOIN
+                    <span>B.CON x TUFF</span>
+                </h1>
+
+                <p>
+                    Apni competitive journey start karo.
+                    Registration ke baad admin team tumhari
+                    application review karegi.
+                </p>
+
+            </div>
+
+
+            <form id="registrationForm">
+
+                <!-- PERSONAL INFORMATION -->
+                <div class="form-section">
+
+                    <h2>01 — Personal Information</h2>
+
+                    <div class="form-grid">
+
+                        <div class="field">
+                            <label>FULL NAME *</label>
+                            <input
+                                type="text"
+                                name="fullName"
+                                placeholder="Enter your full name"
+                                required
+                            >
+                        </div>
+
+                        <div class="field">
+                            <label>IN-GAME NAME / IGN *</label>
+                            <input
+                                type="text"
+                                name="ign"
+                                placeholder="Your Free Fire IGN"
+                                required
+                            >
+                        </div>
+
+                        <div class="field">
+                            <label>FREE FIRE UID *</label>
+                            <input
+                                type="text"
+                                name="uid"
+                                placeholder="Enter your UID"
+                                required
+                            >
+                        </div>
+
+                        <div class="field">
+                            <label>AGE *</label>
+                            <input
+                                type="number"
+                                name="age"
+                                min="13"
+                                placeholder="Your age"
+                                required
+                            >
+                        </div>
+
+                        <div class="field">
+                            <label>CITY *</label>
+                            <input
+                                type="text"
+                                name="city"
+                                placeholder="Your city"
+                                required
+                            >
+                        </div>
+
+                        <div class="field">
+                            <label>STATE *</label>
+                            <input
+                                type="text"
+                                name="state"
+                                placeholder="Your state"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ACCOUNT -->
+                <div class="form-section">
+
+                    <h2>02 — Account</h2>
+
+                    <div class="form-grid">
+
+                        <div class="field">
+                            <label>EMAIL *</label>
+
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="your@email.com"
+                                required
+                            >
+                        </div>
+
+                        <div class="field">
+                            <label>MOBILE</label>
+
+                            <input
+                                type="tel"
+                                name="phone"
+                                placeholder="Your mobile number"
+                            >
+                        </div>
+
+                        <div class="field">
+                            <label>USERNAME *</label>
+
+                            <input
+                                type="text"
+                                name="username"
+                                placeholder="Create username"
+                                required
+                            >
+                        </div>
+
+                        <div class="field">
+                            <label>PASSWORD *</label>
+
+                            <input
+                                type="password"
+                                name="password"
+                                placeholder="Create password"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- GAMEPLAY -->
+                <div class="form-section">
+
+                    <h2>03 — Gameplay</h2>
+
+                    <div class="form-grid">
+
+                        <div class="field">
+
+                            <label>PLAYER ROLE *</label>
+
+                            <select name="role" required>
+
+                                <option value="">
+                                    Select your role
+                                </option>
+
+                                <option>IGL</option>
+                                <option>Rusher</option>
+                                <option>Support</option>
+                                <option>Sniper</option>
+                                <option>Substitute</option>
+                                <option>Coach</option>
+                                <option>Analyst</option>
+                                <option>Other</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label>DEVICE *</label>
+
+                            <input
+                                type="text"
+                                name="device"
+                                placeholder="Android / iPhone"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label>INTERNET / NETWORK</label>
+
+                            <input
+                                type="text"
+                                name="network"
+                                placeholder="Wi-Fi / 5G"
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label>AVAILABILITY</label>
+
+                            <input
+                                type="text"
+                                name="availability"
+                                placeholder="Example: 6 PM - 11 PM"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EXPERIENCE -->
+                <div class="form-section">
+
+                    <h2>04 — Experience</h2>
+
+                    <div class="form-grid">
+
+                        <div class="field full">
+
+                            <label>PREVIOUS TEAM</label>
+
+                            <input
+                                type="text"
+                                name="previousTeam"
+                                placeholder="Previous organisation/team"
+                            >
+
+                        </div>
+
+
+                        <div class="field full">
+
+                            <label>COMPETITIVE EXPERIENCE</label>
+
+                            <textarea
+                                name="experience"
+                                rows="5"
+                                placeholder="Tell us about your competitive experience..."
+                            ></textarea>
+
+                        </div>
+
+
+                        <div class="field full">
+
+                            <label>ACHIEVEMENTS</label>
+
+                            <textarea
+                                name="achievements"
+                                rows="5"
+                                placeholder="Tournament wins, rankings, achievements..."
+                            ></textarea>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SOCIAL -->
+                <div class="form-section">
+
+                    <h2>05 — Social & Communication</h2>
+
+                    <div class="form-grid">
+
+                        <div class="field">
+
+                            <label>DISCORD</label>
+
+                            <input
+                                type="text"
+                                name="discord"
+                                placeholder="Discord username"
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label>INSTAGRAM</label>
+
+                            <input
+                                type="text"
+                                name="instagram"
+                                placeholder="@username"
+                            >
+
+                        </div>
+
+
+                        <div class="field full">
+
+                            <label>YOUTUBE</label>
+
+                            <input
+                                type="url"
+                                name="youtube"
+                                placeholder="YouTube channel link"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- AGREEMENT -->
+                <div class="agreement">
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            name="agreement"
+                            required
+                        >
+
+                        <span>
+                            I agree to follow B.con x Tuff eSports
+                            rules and understand that registration
+                            requires admin review and approval.
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- SUBMIT -->
+                <button
+                    type="submit"
+                    class="submit-btn"
+                >
+                    SUBMIT APPLICATION →
+                </button>
+
+
+                <p class="form-note">
+                    Your application will remain pending until
+                    reviewed by an authorised organisation admin.
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            B.con x Tuff eSports
+        </p>
+
+        <small>
+            All Things Are Immortal —
+            Play Like Devil, Win Like Hero.
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
